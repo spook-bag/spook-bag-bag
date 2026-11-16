@@ -99,7 +99,7 @@
 				{
 					"binding": "DB",
 					"database_name": "synch-database",
-					"database_id": "3d5d180d-3fa2-4489-8433-265fb596ee97",
+					"database_id": "960cb6f7-9d19-4d50-8a28-435d9df1c50f",
 					"migrations_dir": "drizzle"
 				}
 			],
