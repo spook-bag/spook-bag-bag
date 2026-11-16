@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const projectDir = path.resolve(scriptDir, "..");
-const databaseName = process.env.SYNCH_D1_DATABASE_NAME ?? "synch-db";
+const databaseName = process.env.SYNCH_D1_DATABASE_NAME ?? "synch-database";
 const bindingName = "DB";
 
 function runWrangler(args, options = {}) {
